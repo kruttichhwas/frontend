@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Responsive Page with Collapsible Left Menu</title>
+
+  <!-- Link to external CSS -->
+  <link rel="stylesheet" href="style.css" />
+
+  <!-- Link to external JS -->
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <!-- Fixed Navbar -->
+  <nav class="navbar">
+    <div class="logo">MyWebsite</div>
+    <button id="menuToggleBtn" class="toggle-btn">
+      Toggle Menu
+    </button>
+  </nav>
+
+  <!-- Page Wrapper to hold left menu, main content, right panel -->
+  <div class="page-wrapper">
+    <!-- Left Menu -->
+    <aside id="leftMenu" class="left-menu">
+      <h2>Left Menu</h2>
+      <ul>
+        <li><a href="#section1">Item 1</a></li>
+        <li><a href="#section2">Item 2</a></li>
+        <li><a href="#section3">Item 3</a></li>
+      </ul>
+    </aside>
+
+    <!-- Main Content -->
+    <main class="main-content">
+      <h1>Main Content Area</h1>
+      <p>
+        This is where your main content goes. Resize the screen to see the
+        JavaScript scale effect in action, and click “Toggle Menu” to see
+        the collapsible menu.
+      </p>
+      <section id="section1">
+        <h2>Section 1</h2>
+        <p>Details about Section 1.</p>
+      </section>
+      <section id="section2">
+        <h2>Section 2</h2>
+        <p>Details about Section 2.</p>
+      </section>
+      <section id="section3">
+        <h2>Section 3</h2>
+        <p>Details about Section 3.</p>
+      </section>
+    </main>
+
+    <!-- Right Panel -->
+    <aside class="right-panel">
+      <h2>Right Panel</h2>
+      <p>
+        This could be used for additional info, ads, links, or widgets.
+      </p>
+    </aside>
+  </div>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <p>&copy; 2025 Your Website. All rights reserved.</p>
+  </footer>
+</body>
+</html>
